@@ -1,0 +1,188 @@
+.pricetab h4 {
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    color: #fff;
+    padding: 18px 0;
+    margin-bottom: 0;
+}
+.pricetab > p {
+    background-color: #ffffff;
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+    color: #000;
+    font-size: 17px;
+    font-style: italic;
+    padding: 48px 40px 40px;
+}
+.pricetab button {
+    border: 0 none;
+    border-radius: 8px;
+    color: #fff;
+    display: inline-block;
+    max-width: 150px;
+    padding: 4px 30px;
+    text-transform: uppercase;
+}
+.content_heading h3 {
+    color: #000;
+}
+.font28 {
+    font-size: 28px;
+}
+.method .col-md-3:nth-of-type(1) {
+    border-left: 2px solid #eee;
+}
+.list-header .col-md-3, .list-header .col-md-2 {
+    border-top: 2px solid #eee;
+}
+.method .col-md-3, .method .col-md-2 {
+    border-bottom: 2px solid #eee;
+    border-right: 2px solid #eee;
+}
+.padding0 {
+    padding: 0;
+}
+
+element {
+
+}
+.header {
+
+    color: #000;
+    font-size: 20px;
+    font-weight: 900;
+    padding: 8px 0;
+    text-transform: uppercase;
+
+}
+.method .cell:nth-of-type(2) {
+    border-top: 2px solid #eee;
+}
+.method .cell {
+    padding: 8px 0px;
+    border-bottom: 2px solid #eee;
+}
+.propertyname, .cell {
+    font-size: 14px;
+}
+.width80 {
+    width: 80%;
+    margin: 0 auto;
+    display: block;
+}
+.mtop40 {
+    margin-top: 40px;
+}
+
+h4.pricetab_green, h4.pricetab_red {
+    background: #1976d2!important;
+
+}
+.pricetab h4 span {
+    font-weight: bold;
+    margin-bottom: 7px;
+}
+.block {
+    display: block;
+}
+.pricetab h4 i {
+    font-size: 17px;
+}
+i {
+    cursor: pointer;
+    position: relative;
+}
+ .pricetab button {
+    border: 0 none;
+    border-radius: 8px;
+    color: #fff;
+    display: inline-block;
+    max-width: 150px;
+    padding: 4px 30px;
+    text-transform: uppercase;
+}
+.pricetab button {
+     background: #1976d2!important;
+}
+.buy_tokens span, .top_intro span {
+    display: block;
+    font-size: 18px;
+    font-style: italic;
+    color: #111;
+}
+.content_heading h3 {
+    color: #000;
+}
+.text_cntr {
+
+    margin: auto;
+}
+.text-center.content_heading {
+    margin: auto;
+}
+.method .cell {
+    padding: 8px 0px;
+    border-bottom: 2px solid #eee;
+}
+.propertyname, .cell {
+    font-size: 14px;
+}
+.method .img-responsive {
+    display: inline-block;
+    margin: 0 11px;
+    max-width: 19px;
+    vertical-align: middle;
+}
+.method {
+    width: 100%;
+}
+.cell {
+    display: block;
+    vertical-align: middle;
+}
+.content_heading h3 {
+    color: #000;
+    margin-top: 2rem;
+}
+.method {
+    width: 100%;
+    margin-bottom: 3rem;
+}
+.method button {
+    background-color: #05aaac;
+    border: 0 none;
+    color: #fff;
+    font-size: 12px;
+    line-height: 15px;
+    padding: 3px 12px;
+}
+.col_offset {
+    margin-left: 2%;
+}
+h3.font22.header_sec {
+    margin-top: 15px;
+}
+.pricetab h4 {
+    background-color: #1976d2;
+}
+.unlock-more-match-quest{
+    margin: 10px;
+}
+.unlock-more-match-quest-btn{
+    background-color: #EB3939;
+}
+
+
+/*End of Desktop CSS*/
+
+/*Mobile CSS*/
+@media only screen and (max-width: 767px)
+{
+    .price_pg {
+        padding: 20px;
+    }
+    .price_pg .pricetab button {
+        background: #1976d2!important;
+        margin: 10px auto 20px;
+    }
+}

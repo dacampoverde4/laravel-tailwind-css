@@ -1,0 +1,54 @@
+.checkout_pg {
+    margin: 60px 0;
+}
+.checkoutbox {
+	border: 0px;
+    border-radius: 4px;
+    -webkit-box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.05);
+    box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.05);
+    background-color: white;
+    padding: 25px;
+}
+h4.itemsinfo {
+    font-size: 22px;
+    padding: 15px 0;
+}
+.paybtn {
+    background-color: #1976d2 !important;
+    color: white !important;
+    margin: 20px 0 10px;
+}
+.checkfrm-sec form{
+	display: inline-block;
+}
+.btn:disabled {
+    opacity: .65 !important;
+}
+.couponcode-section .status-msg.error{
+    color: red;
+}
+.couponcode-section .status-msg.success{
+    color: green;
+}
+button.apply-coupon{
+    margin-right: 5px;
+}
+button.reset-coupon{
+    display: none;
+}
+.status-msg.success b{
+    font-size: 20px;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 330px)
+{
+	.container-fluid {
+	    padding: 0 10px 25px 10px !important;
+	}
+}
+@media only screen and (max-width: 767px)
+{
+	.paybtn {
+	    font-size: 15px !important;
+	}
+}

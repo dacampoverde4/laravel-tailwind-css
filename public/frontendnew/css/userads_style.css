@@ -1,0 +1,453 @@
+.mtb10 {
+    margin: 10px 0;
+}
+.mb10 {
+    margin-bottom: 10px;
+}
+.select2-container--default .select2-selection--multiple .select2-selection__rendered {
+    padding: 0px 5px 5px !important;
+}
+.clearfix{
+    clear: both;
+    display: block;
+    width: 100%;
+}
+[type=radio]:checked, [type=radio]:not(:checked) {
+    left: 0 !important;
+    opacity: 1 !important;
+    margin-top: 5px !important;
+    margin-left: -15px;
+}
+.radio {
+    margin-left: 20px;
+    display: inline-block;
+    position: relative;
+}
+.single_ads {
+    border: 1px solid #b1b3b4;
+    text-align: center;
+    border-radius: 20px;
+    overflow: hidden;
+    margin-bottom: 20px;
+    box-shadow: 0 0 10px 2px #a6a6a6;
+    background-color: white;
+}
+.single_ads_manageads{
+    text-align: center;
+    border-radius: 5px;
+    overflow: hidden;
+    margin-bottom: 20px;
+    background-color: white;
+    box-shadow: 0 0px 3px rgba(0,0,0,.5);
+}
+.single_ads_manageads h4 {
+    background-color: #00bcd4;
+    padding: 10px;
+    color: white;
+    margin-bottom: 0;
+}
+.single_ads_manageads p {
+    font-size: 16px;
+    margin-bottom: 0;
+    line-height: 28px;
+    font-weight: 500;
+}
+.single_ads_manageads .ttl_sec {
+    padding: 10px 0 10px;
+    margin-bottom: 5px;
+    color: black;
+    border-bottom: 1px dashed #ececec;
+}
+.single_ads_manageads .paybtn_sec {
+    padding: 10px 0 20px;
+}
+ul.usrbanner_lists {
+    list-style: none;
+    margin-left: 0;
+    padding-left: 0;
+    padding: 0px 0px 0;
+    margin-bottom: 0;
+}
+ul.usrbanner_lists li {
+    border-bottom: 1px dashed #f4f4f4;
+    padding: 10px;
+}
+ul.usrbanner_lists li p {
+    margin-bottom: 5px;
+}
+.single_ads h4 {
+    background-color: #1976d2;
+    padding: 20px;
+    color: white;
+    margin-bottom: 0;
+}
+.pagesec {    
+    font-size: 14px;
+    display: block;
+    font-weight: 500;
+}
+.mt10{
+    margin-top: 10px;
+}
+.banerprice_sec {
+    font-size: 14px;
+    display: block;
+}
+.banerprice_ttl{
+    font-size: 14px;
+    font-weight: 500;
+}
+.upgraded_ads {
+    background-color: #0cb619 !important;
+    color: white !important;
+}
+.ttl_sec{
+   /* background-color: #e3e3e3;*/
+    padding: 10px 0 0;
+    margin-bottom: 0;
+    color: black;
+}
+ul.usrbanner_lists li:last-child, ul.taraud_lists li:last-child {
+    margin-bottom: 0;
+}
+ul.taraud_lists {
+    padding-left: 0;
+    margin: 0;
+    padding: 0px 0px 0;
+    list-style: none;
+}
+ul.taraud_lists li p {
+    margin-bottom: 5px;
+}
+ul.taraud_lists li {
+    border-bottom: 1px dashed #f4f4f4;
+    margin-bottom: 0px;
+    padding: 10px;
+}
+ul.taraud_lists li p {
+    font-size: 14px;
+}
+.target_aud_sec {
+    display: block;
+    font-size: 14px;
+    font-weight: 500;
+}
+.target_aud_price {
+    display: block;
+    font-size: 14px;
+    font-weight: 500;
+}
+.single_ads p {
+    font-size: 14px;
+    margin-bottom: 0;
+    line-height: 22px;
+}
+.paybtn_sec {
+    padding: 10px 0;
+}
+.sec_hgt{
+    min-height: 380px;
+}
+.sec_hgt_manageads {
+    min-height: 250px;
+}
+ul.pgslist {
+    padding-left: 0;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+.pgsttl{
+    border-top: 1px dashed #ececec;
+}
+.addstime{
+    font-weight: 500;
+    color: blue;
+}
+.addetime{
+    font-weight: 500;
+    color: red;
+}
+.boldfont{
+    font-weight: 500;
+}
+.pkgttl{
+    color: #1976d2;
+    margin: 1rem 0 1rem 0;
+    font-size: 28px;
+    text-align: center;
+}
+.pckamntsec {
+    display: block;
+    font-size: 18px;
+    font-style: italic;
+    padding: 10px 0 0px;
+}
+.adsdesc {
+    padding: 20px 10px;
+    border-bottom: 1px solid #f4f4f4;
+    margin-bottom: 5px;
+}
+.adsdesc p {
+    font-weight: 500;
+    color: #000;
+    font-size: 16px;
+    font-style: italic;
+}
+.banner_lbl {
+    padding: 15px 0;
+}
+.formttl {
+    font-weight: 500;
+    color: black;
+    font-size: 24px;
+}
+.labeld{
+    font-weight: 500;
+    color: #455a64;
+}
+.pt10{
+    padding-top: 10px;
+}
+.imagesec {
+    height: 100px;
+    overflow: hidden;
+}
+.mtb20 {
+    margin: 20px 0;
+}
+
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover {
+    font-size: 18px!important;
+    color: black!important;
+}
+.nav-tabs>li>a {
+    font-size: 18px!important;
+    color: black!important;
+}
+.Advertm{
+    color: #1976d2;
+}
+.Advertmp{
+    color: #000;
+    font-weight: 400;
+    margin-bottom: 25px;
+}
+.Advertsub{
+    color: #ff4500a1;
+}
+.Advertsubp{
+    font-size: 16px;
+    font-weight: 400;
+    color: black;
+    text-align: justify;
+}
+.Adverthr{
+    border-top: 05px solid rgba(0, 0, 0, .1)!important;
+}
+.pkgttlsub{
+    font-size: 18px;
+    font-weight: 400;
+    font-style: italic;
+    color: black;
+}
+.fade:not(.show) {
+    opacity: 1!important;
+}
+#Advertise .col-md-4{
+    max-width: 29%;
+    margin: 0 25px;
+}
+.event-ban{
+padding:0;
+}
+.event-ban img{
+width:100%;
+height:127px;
+}
+@media only screen and (max-width: 1244px){
+  div#Advertise .same_col{
+       max-width:33%;
+       width:100%;
+       margin:0 auto;
+       text-align:center;
+       padding: 7px;
+       
+     
+  }
+  div#Advertise .same_col p.Advertsubp {
+    text-align: center;
+}
+
+}
+
+ 
+ @media only screen and (max-width: 767px)
+{
+    .sec_hgt {
+        min-height: auto;
+    }
+    .sec_hgt_manageads {
+        min-height: auto;
+    }
+    .container-fluid {
+        padding: 10px 15px 10px 15px !important;
+    }
+     
+div#Advertise .same_col {
+    max-width: 100% !important;
+    width: 100% !important;
+    margin: 7px auto !important;
+    text-align: center !important;
+    padding: 7px !important;
+}
+.bot_col_sec #Advertise .col-md-4 {
+    max-width: 100% !important;
+    margin:0 20px !important;
+} 
+
+.bot_col_sec {
+    width: 100%;
+    display: block !important;
+    margin: 0;
+} 
+
+.bot_col_sec  .bot_cols{
+    display: block !important;
+    width: 100% !important;
+    margin: 0 !important;
+    padding: 15px;
+    float: none;
+    text-align: center;
+    max-width: 100% !important;
+} 
+ 
+.card-no-border .card {
+    padding: 15px;
+}
+ 
+.bot_col_sec{
+       max-width: 100%;
+       margin: 0 !important;
+       display: block !important;
+}
+.card-body {
+    padding-right: unset !important;
+    padding: 1px 10px !important;
+}         
+ .bot_col_sec .bot_cols{
+        max-width: 100% !important;
+        margin: 0 !important;      
+}
+
+
+
+
+}
+     
+         
+@media only screen and (max-width: 1244px){
+  div#Advertise .same_col{
+       max-width:33%;
+       width:100%;
+       margin:0 auto;
+       text-align:center;
+       padding: 7px;
+       
+     
+  }
+  div#Advertise .same_col p.Advertsubp {
+    text-align: center;
+}
+
+}
+
+  
+@media only screen and (min-width: 768px) and (max-width:1200px){
+
+     .bot_col_sec{
+       max-width: 100%;
+       margin: 0 !important;
+       display: block !important;
+     }
+.bot_col_sec .card-body {
+    padding-right: unset !important;
+    padding: 1px 10px !important;
+}         
+ .bot_col_sec .bot_cols{
+        max-width: 50% !important;
+        margin: 0 !important;      
+}
+     .adver_sec{
+        margin-bottom:27px !important;
+     }
+
+}
+
+
+@media only screen and (min-width: 768px)
+{
+    .card {
+        padding: 15px !important;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px){
+
+     .bot_col_sec{
+       max-width: 100%;
+       margin: 0 !important;
+       display: block !important;
+     }
+           
+     .bot_col_sec .bot_cols{
+        max-width: 50% !important;
+        margin: 0 !important;
+        
+     }
+     .adver_sec{
+        margin-bottom:27px !important;
+     } 
+     .bot_col_sec{
+       max-width: 100%;
+       margin: 0 !important;
+       display: block !important;
+     }
+.card-body {
+    padding-right: unset !important;
+    padding: 1px 10px !important;
+}         
+ .bot_col_sec .bot_cols{
+        max-width: 50% !important;
+        margin: 0 !important;      
+}
+
+}
+
+@media only screen and (max-width:425px)
+{
+.card .nav>li>a {
+    position: relative;
+    display: block;
+    padding: 7px 10px;
+} 
+}
+.blanlspace{
+    min-height: 500px;
+}
+.atrt{
+    margin-top: 100px;
+    color: red;
+}
+
+.topbar {
+    padding: 15px!important;
+}
+#menu_gt_sidebar_desk .container-fluid {
+    padding: 23px 30px 13px 30px!important;
+}
+.page-titles {
+    padding-bottom: 0px!important;
+}
+ticket_main, #app .appposi, #app .page-titles {
+    margin-top: 0px!important;
+}

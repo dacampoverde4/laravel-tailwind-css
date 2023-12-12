@@ -1,0 +1,190 @@
+	#modal_upload_profile_image .modal-dialog{
+        position: relative;
+        display: table; /*This is important*/
+        overflow-y: auto;
+        overflow-x: auto;
+        width: auto;
+        min-width: 300px;
+    }
+
+
+    .croppie-container .cr-boundary{
+        margin:0;
+    }
+
+    .fileinput .btn-block+.btn-block {
+        margin-top: 0px;
+    }
+
+	.croppie-container .cr-slider-wrap {
+        margin: 20px auto 0 auto;
+        margin: 20px 0;
+        width:100%;
+    }
+
+    #profile_image_preview_container{
+       text-align: center;
+    }
+    #profile_image_preview_container img{
+       margin-top:50px;
+       margin-top:20px;
+    }
+
+    #modal_upload_profile_image .fileinput {
+	    display: block;
+        margin-bottom:0;
+	}
+
+	#profile_image_preview_container{
+		background:#e1e1e1;
+        /*width:300px;height:300px;*/
+	}
+
+	#profile_image_crop_container{
+		/*width:350px;*/
+        margin-bottom:20px;
+	}
+
+	.btn_profile_image_upload{
+		display: none;
+	}
+
+	.btn_profile_image_preview{
+		display: none;
+	}
+
+    *[class*="col-"] > *[class*="col-"]:first-child
+	{
+		padding-left:0px;
+	}
+
+	*[class*="col-"] > *[class*="col-"]
+	{
+		padding-left:0px;
+	}
+
+	*[class*="col-"] > *[class*="col-"]:last-child
+	{
+		padding-right:0px;
+	}
+
+
+
+	/*==================================================
+	=            Bootstrap 3 Media Queries             =
+	==================================================*/
+
+
+    /*==========  Mobile First Method  ==========*/
+
+    /* Custom, iPhone Retina */
+    @media only screen and (min-width : 320px) {
+
+    }
+
+    /* Extra Small Devices, Phones */
+    @media only screen and (min-width : 480px) {
+
+        #modal_upload_profile_image  .modal-dialog {
+            width:320px; /* New width for default modal */
+            margin: 30px auto;
+        }
+
+    }
+
+    /* Small Devices, Tablets */
+
+    @media screen and (min-width: 768px) {
+        #modal_upload_profile_image  .modal-dialog {
+            width: 860px; /* New width for default modal */
+            width: 650px;
+        }
+        #modal_upload_profile_image .modal-sm {
+            width: 350px; /* New width for small modal */
+        }
+    }
+
+    /* Medium Devices, Desktops */
+    @media screen and (min-width: 992px) {
+        #modal_upload_profile_image .modal-lg {
+            width: 950px; /* New width for large modal */
+        }
+    }
+
+    /* Large Devices, Wide Screens */
+    @media only screen and (min-width : 1200px) {
+
+    }
+
+
+    /*==========  Non-Mobile First Method  ==========*/
+
+    /* Large Devices, Wide Screens */
+    @media only screen and (max-width : 1200px) {
+
+    }
+
+    /* Medium Devices, Desktops */
+    @media only screen and (max-width : 992px) {
+
+    }
+
+    /* Small Devices, Tablets */
+    @media only screen and (max-width : 768px) {
+
+
+
+        #modal_upload_profile_image .croppie-container{
+            padding:0;
+            /*padding-top:30px;*/
+        }
+
+        #modal_upload_profile_image .croppie-container .cr-boundary{
+            margin:0;
+        }
+
+        #modal_upload_profile_image .croppie-container .cr-slider-wrap{
+             margin:20px 0;
+        }
+
+        #modal_upload_profile_image #profile_image_preview_container{
+            margin-top: 30px;
+        }
+
+        #modal_upload_profile_image *[class*="col-xs"] > *[class*="col-xs"]:first-child
+		{
+			padding-left:0px;
+			padding-right:0px;
+
+		}
+
+
+        #modal_upload_profile_image *[class*="col-xs"] > *[class*="col-xs"]
+		{
+			padding-left:0px;
+			padding-right:0px;
+
+		}
+
+        #modal_upload_profile_image *[class*="col-xs"] > *[class*="col-xs"]:last-child
+		{
+			padding-left:0px;
+			padding-right:0px;
+
+		}
+    }
+
+    /* Extra Small Devices, Phones */
+    @media only screen and (max-width : 480px) {
+
+    }
+
+    /* Custom, iPhone Retina */
+    @media only screen and (max-width : 320px) {
+
+    }
+
+
+/*==================================================
+=            Bootstrap 3 Media Queries             =
+==================================================*/
